@@ -1,5 +1,4 @@
-//your JS code here. If required.
-//your JS code here. If required.
+
 window.onload = function() {
     // check if there are saved details
     if(localStorage.getItem('username') && localStorage.getItem('password')) {
@@ -9,7 +8,6 @@ window.onload = function() {
         btn.onclick = function() {
             alert('Logged in as ' + localStorage.getItem('username'));
         };
-        // document.getElementById('form').appendChild(btn);
     }
 };
 
